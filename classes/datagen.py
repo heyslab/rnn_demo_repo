@@ -170,7 +170,7 @@ class genFactory:
         if task == 'just_short_match' or task == 'potentiate':
             traingen = tDNMSGenerator(
                 input_noise=input_noise, batch_size=2, n_blocks=n_blocks)
-       else:
+        else:
             raise Exception('task not found')
 
-       return traingen
+        return traingen
